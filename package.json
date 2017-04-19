@@ -1,0 +1,19 @@
+{
+  "name": "paygapexplorer",
+  "version": "1.0.0",
+  "description": "Created by Elizabeth Boles, front end student at The Iron Yard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizabethBoles/PayGapExplorer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElizabethBoles/PayGapExplorer/issues"
+  },
+  "homepage": "https://github.com/ElizabethBoles/PayGapExplorer#readme"
+}
