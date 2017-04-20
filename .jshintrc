@@ -18,15 +18,15 @@
     "nonew"         : false,    // true: Prohibit use of constructors for side-effects (without assignment)
     "plusplus"      : false,    // true: Prohibit use of `++` and `--`
     "quotmark"      : false,    // Quotation mark consistency:
-                                //   false    : do nothing (default)
-                                //   true     : ensure whatever is used is consistent
-                                //   "single" : require single quotes
-                                //   "double" : require double quotes
+    //   false    : do nothing (default)
+    //   true     : ensure whatever is used is consistent
+    //   "single" : require single quotes
+    //   "double" : require double quotes
     "undef"         : true,     // true: Require all non-global variables to be declared (prevents global leaks)
     "unused"        : true,     // Unused variables:
-                                //   true     : all variables, last function parameter
-                                //   "vars"   : all variables only
-                                //   "strict" : all variables, all function parameters
+    //   true     : all variables, last function parameter
+    //   "vars"   : all variables only
+    //   "strict" : all variables, all function parameters
     "strict"        : true,     // true: Requires all functions run in ES5 Strict Mode
     "maxparams"     : false,    // {int} Max number of formal params allowed per function
     "maxdepth"      : false,    // {int} Max depth of nested blocks (within functions)
@@ -42,7 +42,7 @@
     "eqnull"        : false,     // true: Tolerate use of `== null`
     "esversion"     : 6,         // {int} Specify the ECMAScript version to which the code must adhere.
     "moz"           : false,     // true: Allow Mozilla specific syntax (extends and overrides esnext features)
-                                 // (ex: `for each`, multiple try/catch, function expression…)
+    // (ex: `for each`, multiple try/catch, function expression…)
     "evil"          : false,     // true: Tolerate use of `eval` and `new Function()`
     "expr"          : false,     // true: Tolerate `ExpressionStatement` as Programs
     "funcscope"     : false,     // true: Tolerate defining variables inside control statements
@@ -86,12 +86,12 @@
 
     // Custom Globals
     "globals"       : {
-      "$": true,
-      "ght": true,
-      "angular": true,
-      "chai": true,
-      "module": true,
-      "inject": true
+        "$": true,
+        "ght": true,
+        "angular": true,
+        "chai": true,
+        "module": true,
+        "inject": true
 
-      }        // additional predefined global variables
-}
+        }        // additional predefined global variables
+    }
